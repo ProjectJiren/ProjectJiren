@@ -7,12 +7,7 @@ if (Click)
     {
     with (ClickID) 
         {
-        global.target = name;
 		obj_player.targeting = true;
         scr_TargetSystem();
         }
     }
-    else
-        {
-		obj_player.targeting = false;
-        }
