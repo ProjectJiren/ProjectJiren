@@ -6,14 +6,18 @@ if (name == global.target)
         {
         if (!friendly)
             {
-            scr_EnemyCheck();
+			scr_EnemyCheck();
             }
             else
                 {
 				scr_FriendlyCheck();
                 }
         }
-		else instance_destroy(obj_friendlytarget); instance_destroy(obj_target);
+		else 
+			{
+			instance_destroy(obj_friendlytarget);
+			instance_destroy(obj_target);
+			}
     }
 
 

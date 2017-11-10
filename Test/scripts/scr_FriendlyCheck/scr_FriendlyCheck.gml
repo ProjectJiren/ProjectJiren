@@ -2,7 +2,7 @@
 /// @func scr_FriendlyCheck
 if instance_exists(obj_friendlytarget)
 	{
-	if (obj_player.targeting = true)
+	if (obj_player.targeting = true )
 		{
 		global.ClickID = ClickID;
 		}
