@@ -16,4 +16,5 @@ canTarget = false;
 mx = 0;
 my = 0;
 global.ClickID = instance_position(mouse_x,mouse_y,all);
+LClick = mouse_check_button(mb_left);
 targeted = false;

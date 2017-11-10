@@ -23,18 +23,22 @@
 //var testID = global.target.id;
 if (canTarget && !friendly)
 {
+	obj_player.targeting = true;
 	scr_EnemyCheck();
 }
 else
 {
 	instance_destroy(obj_target);
+	obj_player.targeting = false;
 }
 if (canTarget && friendly)
 {
+	obj_player.targeting = true;
 	scr_FriendlyCheck();
 }
 else
 {
 	instance_destroy(obj_friendlytarget);
+	obj_player.targeting = false;
 }
 #endregion

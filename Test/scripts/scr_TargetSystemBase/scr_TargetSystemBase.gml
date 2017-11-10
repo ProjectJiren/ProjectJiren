@@ -7,7 +7,6 @@ if (Click)
     {
     with (ClickID) 
         {
-		obj_player.targeting = true;
         scr_TargetSystem();
         }
     }
