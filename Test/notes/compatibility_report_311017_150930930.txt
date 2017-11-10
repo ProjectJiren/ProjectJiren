@@ -1,0 +1,57 @@
+Converting GML script: ${project_dir}\scripts\scr_EnemyVariables\scr_EnemyVariables.gml
+Converted description /// @description scr_EnemyVariables
+
+Converting GML script: ${project_dir}\scripts\scr_FloorVariables\scr_FloorVariables.gml
+Converted description /// @description scr_FloorVariables()/// @function scr_FloorVariables
+
+Converting GML script: ${project_dir}\scripts\scr_WasdMovement\scr_WasdMovement.gml
+Converted description /// @description scr_Movement()/// @function scr_Movement
+
+Converting GML script: ${project_dir}\scripts\scr_ClickMovement\scr_ClickMovement.gml
+Converted description /// @description scr_ClickMovement()/// @function scr_ClickMovement
+
+Converting GML script: ${project_dir}\scripts\scr_TargetSystemBase\scr_TargetSystemBase.gml
+Converted description /// @description scr_TargetSystem()/// @function scr_TargetSystem
+
+Converting GML script: ${project_dir}\scripts\scr_TargetSystem\scr_TargetSystem.gml
+Converted description /// @description scr_TargetSystem()/// @function scr_TargetSystem
+
+Converting GML script: ${project_dir}\scripts\scr_AttackSystem\scr_AttackSystem.gml
+Converted description /// @description scr_AttackSystem
+
+Converting GML script: ${project_dir}\scripts\scr_HealthSystem\scr_HealthSystem.gml
+Converted description /// @description scr_HealthSystem()/// @function scr_HealthSystem
+
+Converting GML script: ${project_dir}\scripts\scr_AttackSystemBase\scr_AttackSystemBase.gml
+Converted description /// @description AttackSystemBase()/// @function AttackSystemBase
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description depth placement
+
+Converting GML script: ${project_dir}\objects\obj_npc\Create_0.gml
+Converted description /// @description Set Vars
+
+Converting GML script: ${project_dir}\objects\obj_npc\Draw_0.gml
+Converted description /// @description Inheritance
+
+Converting GML script: ${project_dir}\objects\obj_monster\Create_0.gml
+Converted description /// @description Variable Values
+
+Converting GML script: ${project_dir}\objects\obj_monster\Draw_0.gml
+Converted description /// @description Inheritance
+
+Converting GML script: ${project_dir}\objects\obj_floor\Create_0.gml
+Converted description /// @description deapth check
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\scr_FriendlyVariables\scr_FriendlyVariables.gml
+Converted description /// @description scr_FriendlyVariables()/// @function scr_FriendlyVariables
+
+Converting GML script: ${project_dir}\scripts\scr_PlayerVariables\scr_PlayerVariables.gml
+Converted description /// @description scr_PlayerVariables()/// @function scr_PlayerVariables
+
+Converting GML script: ${project_dir}\scripts\scr_BasetVariables\scr_BasetVariables.gml
+Converted description /// @description scr_BaseVariables()/// @function scr_BaseVariables
+
+Game speed set to 30

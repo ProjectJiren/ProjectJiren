@@ -1,0 +1,11 @@
+/// @description scr_PlayerVariables()
+/// @function scr_PlayerVariables
+mx = 0;
+my = 0;
+friendly = true;
+canTarget = true;
+playerSpeed = 4;
+global.mspeed = playerSpeed;
+attack = 5;
+targeting = false;
+hastarget = false;
