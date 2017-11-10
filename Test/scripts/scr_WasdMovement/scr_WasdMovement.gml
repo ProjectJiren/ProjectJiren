@@ -1,5 +1,7 @@
 /// @description scr_Movement()
 /// @function scr_Movement
+
+//test
 if keyboard_check(ord("A"))
     {
     x -= mspeed;
