@@ -21,13 +21,19 @@
 #endregion
 #region New Target System
 //var testID = global.target.id;
+
+var i = 0;
+
 if (canTarget && !friendly)
 {
 	scr_EnemyCheck();
 }
 else
 {
-	instance_destroy(obj_target);
+	if(instance_exists(obj_target))
+	{
+		instance_destroy(obj_target);
+	}
 }
 if (canTarget && friendly)
 {
@@ -35,6 +41,9 @@ if (canTarget && friendly)
 }
 else
 {
-	instance_destroy(obj_friendlytarget);
+	if (instance_exists(obj_friendlytarget))
+	{
+		instance_destroy(obj_friendlytarget);
+	}
 }
 #endregion

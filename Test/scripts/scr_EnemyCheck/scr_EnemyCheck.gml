@@ -9,6 +9,11 @@ if instance_exists(obj_target)
 		else 
 		{
 			obj_player.targeting = false;
+			global.isTargeting = false;
 		}
 	}
-	else instance_create_layer(x,y-20,"objlayer",obj_target);
+	else 
+	{
+		instance_create_layer(x,y-20,"objlayer",obj_target);
+		//global.isTargeting = true;
+	}
