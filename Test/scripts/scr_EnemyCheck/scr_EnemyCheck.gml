@@ -4,8 +4,11 @@ if instance_exists(obj_target)
 	{
 	if (obj_player.targeting = true)
 		{
-		global.ClickID = ClickID;
+			global.ClickID = ClickID;
 		}
-		else obj_player.targeting = false;
+		else 
+		{
+			obj_player.targeting = false;
+		}
 	}
 	else instance_create_layer(x,y-20,"objlayer",obj_target);
