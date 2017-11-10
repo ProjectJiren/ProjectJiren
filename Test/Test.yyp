@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0225298c-6f27-4c44-bd95-97e688234ecb",
+            "Value": {
+                "id": "bedd7db5-9909-4a17-803d-1efbff78cc21",
+                "resourcePath": "scripts\\scr_TargetRecode\\scr_TargetRecode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02d9e941-6f9a-4010-8613-9e3d01c72ea7",
             "Value": {
                 "id": "f0528ed4-7491-48cc-83c4-d7565101d515",
@@ -636,6 +644,7 @@
         "d98ade0a-690f-4557-b78d-3e6059e8ef3b",
         "02d9e941-6f9a-4010-8613-9e3d01c72ea7",
         "1fe4191f-b3d2-46d2-a412-5496da1e13b5",
+        "0225298c-6f27-4c44-bd95-97e688234ecb",
         "e2530af4-9d08-4340-96a3-8e254bf863a5",
         "17e296e3-1ceb-4bc0-8373-9870b446342c",
         "e213b5a0-5584-4097-9d95-90d7645047bf"
