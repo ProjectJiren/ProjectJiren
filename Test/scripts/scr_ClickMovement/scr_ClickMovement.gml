@@ -11,5 +11,3 @@ if (!moving && mouse_check_button(mb_left))
     }
 else if(obj_player.targeting || moving || point_distance(x, y, mx, my) < 2) speed = 0; moving = false;
 if(point_distance(x, y, mx, my) > 2) draw_sprite(spr_clickedpoint, image_index, mx, my);
-
-				

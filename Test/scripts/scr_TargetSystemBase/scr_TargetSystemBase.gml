@@ -16,5 +16,9 @@ if (Click)
     else
         {
 		obj_player.targeting = false;
-		if (obj_player.hastarget = false) instance_destroy(obj_friendlytarget);
+		if (obj_player.hastarget = false) 
+		{
+			instance_destroy(obj_friendlytarget);
+			instance_destroy(obj_target);
+		}
         }
