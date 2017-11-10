@@ -1,6 +1,6 @@
 /// @description scr_ClickMovement()
 /// @function scr_ClickMovement
-if (!moving && mouse_check_button(mb_left))
+if (!obj_player.targeting && !moving && mouse_check_button(mb_left))
     {
     if (point_distance(x, y, mouse_x, mouse_y) > 9)
         {
