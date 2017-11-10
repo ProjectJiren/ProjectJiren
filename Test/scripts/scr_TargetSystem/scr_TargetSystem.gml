@@ -19,6 +19,3 @@ if (name == global.target)
 			instance_destroy(obj_target);
 			}
     }
-
-
-
