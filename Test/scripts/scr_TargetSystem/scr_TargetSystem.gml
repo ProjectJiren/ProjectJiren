@@ -61,7 +61,6 @@ else
 	else
 		{
 		instance_destroy(obj_friendlytarget);
-		instance_destroy(obj_target);
 		obj_player.targeting = false;
 		}
 	}
