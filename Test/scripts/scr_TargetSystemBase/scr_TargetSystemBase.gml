@@ -7,18 +7,7 @@ if (Click)
     {
     with (ClickID) 
         {
-        global.target = name;
-		obj_player.hastarget = true;
 		obj_player.targeting = true;
         scr_TargetSystem();
         }
     }
-    else
-        {
-		obj_player.targeting = false;
-		if (obj_player.hastarget = false) 
-		{
-			instance_destroy(obj_friendlytarget);
-			instance_destroy(obj_target);
-		}
-        }

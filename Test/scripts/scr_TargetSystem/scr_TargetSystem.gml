@@ -1,5 +1,6 @@
 /// @description scr_TargetSystem()
 /// @function scr_TargetSystem
+#region Old Target System
 //if (name == global.target)
 //    {
 //    if(canTarget)
@@ -17,9 +18,9 @@
 //		else instance_destroy(obj_friendlytarget); instance_destroy(obj_target);
 //		instance_destroy(obj_target);
 //    }
-
-var testID = global.target.id;
-
+#endregion
+#region New Target System
+//var testID = global.target.id;
 if (canTarget && !friendly)
 {
 	scr_EnemyCheck();
@@ -36,3 +37,4 @@ else
 {
 	instance_destroy(obj_friendlytarget);
 }
+#endregion
