@@ -58,7 +58,7 @@
             "Key": "13895e1a-1c85-4349-a122-5f573e7b24d2",
             "Value": {
                 "id": "a75c47f0-360a-4d3a-bcda-97e17aca03a0",
-                "resourcePath": "sprites\\sprite11\\sprite11.yy",
+                "resourcePath": "sprites\\spr_playerAttackN\\spr_playerAttackN.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -1,26 +1,25 @@
 /// @description scr_Movement()
 /// @function scr_Movement
 
-//test
 if keyboard_check(ord("A"))
     {
     x -= mspeed;
-	moving = true;
+	wsadmoving = true;
     }
 if keyboard_check(ord("S"))
     {
     y += mspeed;
-	moving = true;
+	wsadmoving = true;
     }
 if keyboard_check(ord("D"))
     {
     x += mspeed;
-	moving = true;
+	wsadmoving = true;
     }
 if keyboard_check(ord("W"))
     {
     y -= mspeed;
-	moving = true;
+	wsadmoving = true;
     }
 if (keyboard_check(vk_shift))
     {

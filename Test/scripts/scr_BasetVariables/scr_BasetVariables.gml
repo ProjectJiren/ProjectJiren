@@ -18,3 +18,4 @@ my = 0;
 global.ClickID = instance_position(mouse_x,mouse_y,all);
 targeted = false;
 global.isTargeting = false;
+wsadmoving = false;
