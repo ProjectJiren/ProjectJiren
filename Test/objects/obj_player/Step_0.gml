@@ -1,3 +1,4 @@
 script_execute(scr_ClickMovement,0,0,0,0,0);
 script_execute(scr_WasdMovement,0,0,0,0,0);
 script_execute(scr_AttackSystemBase,0,0,0,0,0);
+scr_AttackSystem();

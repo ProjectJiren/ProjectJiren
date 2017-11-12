@@ -12,6 +12,7 @@ if (mouse_check_button(mb_left))
 		//moving = true;
         mx = mouse_x;
         my = mouse_y;
+		sprite_index = spr_playerMoving;
         move_towards_point(mx, my, 4);
     }
 }
@@ -19,9 +20,13 @@ if (global.isTargeting && moving || wsadmoving)
 {
 	speed = 0;
 	moving = false;
+	wsadmoving = false;
+	sprite_index = spr_player;
 }
 else if (point_distance(mx, my, obj_player.x, obj_player.y) < 2)
 {
 	speed = 0;
 	moving = false;
+	wsadmoving = false;
+	sprite_index = spr_player;
 }

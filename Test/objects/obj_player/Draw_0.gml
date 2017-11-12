@@ -1,2 +1,2 @@
-script_execute(scr_TargetSystemBase,0,0,0,0,0);
+scr_TargetSystemBase();
 draw_self();

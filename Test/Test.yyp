@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "665125b7-1064-4571-9896-37dc4472dd6b",
+            "Value": {
+                "id": "beb0dca4-9294-4098-893a-6f7c9739c62c",
+                "resourcePath": "sprites\\sprite13\\sprite13.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6696f013-be31-45a6-a726-671956ebb45c",
             "Value": {
                 "id": "5720cf99-6948-4021-aa9b-722199766a5d",
@@ -434,7 +442,7 @@
             "Key": "a3a5fb4a-2d35-449c-9be6-c84f40f2b960",
             "Value": {
                 "id": "f5ac65d2-cd79-4388-afa4-1c912e38e532",
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourcePath": "sprites\\spr_playerMoving\\spr_playerMoving.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -580,6 +588,14 @@
                 "id": "026b6803-9b22-4512-b485-8055bb09532c",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e4c838c4-ebf2-447d-88a3-cfb6c22ad9b3",
+            "Value": {
+                "id": "3dac9a4c-e723-471d-acf1-3e6696e2d353",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
